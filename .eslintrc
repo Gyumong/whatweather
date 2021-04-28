@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": 0,
+    "@typescript-eslint/no-var-requires": "off"
+  }
+}
