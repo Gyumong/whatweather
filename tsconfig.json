@@ -19,7 +19,9 @@
       "@pages/*": ["pages/*"],
       "@utils/*": ["utils/*"],
       "@typings/*": ["typings/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+      "@interface/*": ["interface/*"],
+      "@redux/*": ["redux/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,
