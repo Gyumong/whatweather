@@ -1,6 +1,14 @@
 import React from "react";
+import WeatherBox from "@components/WeatherBox/index";
+import { getMyCurrentLocation } from "./../utuils/geolocation";
 const Home = () => {
-  return <div>HomePage</div>;
+  getMyCurrentLocation();
+  return (
+    <div>
+      <WeatherBox />
+      HomePage
+    </div>
+  );
 };
 
 export default Home;
