@@ -1,12 +1,17 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { IWeather } from "@interface/weather";
-
+import axios from "axios";
 const initialState: IWeather = {
   isLoggedIn: false,
 };
 
+export const getList = createAsyncThunk("GET_TODO", async () => {
+  const response = await axios.get("");
+  return response.data;
+});
+
 export const weathers = createSlice({
-  name: "posts",
+  name: "weathers",
   initialState,
   reducers: {},
   extraReducers: (builder) =>
