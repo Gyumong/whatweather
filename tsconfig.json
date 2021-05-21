@@ -17,11 +17,12 @@
       "@components/*": ["components/*"],
       "@layouts/*": ["layouts/*"],
       "@pages/*": ["pages/*"],
-      "@utils/*": ["utils/*"],
+      "@utils/*": ["utuils/*"],
       "@typings/*": ["typings/*"],
       "@styles/*": ["styles/*"],
       "@interface/*": ["interface/*"],
-      "@redux/*": ["redux/*"]
+      "@redux/*": ["redux/*"],
+      "@config/*": ["config/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,

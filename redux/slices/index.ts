@@ -1,10 +1,13 @@
 import { combineReducers, AnyAction } from "@reduxjs/toolkit";
 import { HYDRATE } from "next-redux-wrapper";
 import weathers from "./weathers";
-import { IWeather } from "../../interface/weather";
+import locationSlice from "./locationSlice";
+import { IWeather } from "@interface/weather";
+import { ICityname } from "@interface/cityname";
 
 export interface State {
   weathers: IWeather;
+  locationSlice: ICityname;
 }
 
 const rootReducer = (state: State | undefined, action: AnyAction) => {
@@ -16,6 +19,7 @@ const rootReducer = (state: State | undefined, action: AnyAction) => {
     default: {
       const combineReducer = combineReducers({
         weathers,
+        locationSlice,
       });
       return combineReducer(state, action);
     }

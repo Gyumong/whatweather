@@ -1,6 +1,5 @@
-import { ReactFragment } from "react";
 import { WeatherBlock } from "./styles";
-const WeatherBox = (): ReactFragment => {
+const WeatherBox = () => {
   return (
     <WeatherBlock>
       <h1>h1</h1>

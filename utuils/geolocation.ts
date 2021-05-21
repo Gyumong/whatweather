@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function getMyCurrentLocation(): any[] {
+export function getMyCurrentLocation(): any {
   const [lat, setLat] = useState(0);
   const [lon, setLon] = useState(0);
   if (typeof window !== "undefined" && navigator.geolocation) {
