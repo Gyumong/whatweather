@@ -17,7 +17,7 @@
       "@components/*": ["components/*"],
       "@layouts/*": ["layouts/*"],
       "@pages/*": ["pages/*"],
-      "@utils/*": ["utuils/*"],
+      "@utils/*": ["utils/*"],
       "@typings/*": ["typings/*"],
       "@styles/*": ["styles/*"],
       "@interface/*": ["interface/*"],
