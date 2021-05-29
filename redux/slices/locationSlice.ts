@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import geolocation from "./../../utils/geolocation";
 
 interface locationInitialState {
-  userLocation: any[];
+  userLocation: string[];
   isFetching: boolean;
   isSuccess: boolean;
   isError: boolean;

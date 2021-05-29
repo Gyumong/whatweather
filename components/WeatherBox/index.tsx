@@ -2,7 +2,7 @@ import { WeatherBlock } from "./styles";
 const WeatherBox = () => {
   return (
     <WeatherBlock>
-      <h1>h1</h1>
+      <h1>title</h1>
     </WeatherBlock>
   );
 };
